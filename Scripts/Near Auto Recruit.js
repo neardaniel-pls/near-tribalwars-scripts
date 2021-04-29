@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Near Auto Recruit
-// @version      1.0
+// @version      1.1
 // @description  If the queue is empty it will recruit a unit
 // @author       Near edit
 // @include https://*&screen=train*
@@ -12,7 +12,7 @@
 var objectTroop = [];
 var randomTime = randomLH(10000, 100000);
 
-//true or false to choose which units to recruit
+//change between true or false to choose which units to recruit
 var lanca = true;
 var espada = false;
 var barbaro = false;
@@ -33,7 +33,7 @@ var classEnum = Object.freeze({
     catapulta: ".unit_sprite_smaller.catapult"
 });
 
-//make another function in EN if you want in that languange
+//make another function in EN if you want in that languange - still needs to be confirmed
 function generateObjectPT() {
     objectTroop = [{
             unitName: "spear",
@@ -93,6 +93,7 @@ $(document).ready(function() {
     });
 
     if (returnValue) {
+        //clicks the recruit button
         $(".btn-recruit").click();
     }
 
