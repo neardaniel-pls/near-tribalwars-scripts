@@ -1,15 +1,15 @@
 // ==UserScript==
 // @name         Near Auto Scavenge
 // @description  Auto Scavenge
-// @version      1.0
+// @version      1.0.1
 // @author       Near edit
-// @include https://*&mode=scavenge*
-// @grant GM_setValue
-// @grant GM_getValue
-// @grant GM_listValues
-// @grant GM_deleteValue
-// @grant GM_addStyle
-// @grant GM_xmlhttpRequest
+// @include      https://*&mode=scavenge*
+// @grant        GM_setValue
+// @grant        GM_getValue
+// @grant        GM_listValues
+// @grant        GM_deleteValue
+// @grant        GM_addStyle
+// @grant        GM_xmlhttpRequest
 // ==/UserScript==
 
 (function() {
