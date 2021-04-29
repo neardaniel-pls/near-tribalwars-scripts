@@ -1,11 +1,10 @@
 // ==UserScript==
 // @name         Near Backtime Times in Inc Screen
-// @version      1.0.4
+// @version      1.0.5
 // @description  Backtime times pretty much
 // @author       FunnyPocketBook, Near edit
 // @match        https://*/game.php*mode=incomings*
 // @grant        none
-// @namespace https://greasyfork.org/users/151096
 // ==/UserScript==
 
 const debug = false;
