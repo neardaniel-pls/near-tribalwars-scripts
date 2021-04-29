@@ -80,7 +80,7 @@ if (!document.getElementById('time_display')) {
 let inputMs;
 let input;
 let delay;
-let arrInterval;
+let arrInterval;    
 let attInterval;
 let delayTime = parseInt(localStorage.delayTime);
 if (isNaN(delayTime)) {
