@@ -1,10 +1,8 @@
 // ==UserScript==
-// @name Near Show Inc Troops in Village Info
+// @name        Near Show Inc Troops in Village Info
 // @description Shows the total incoming troops (support and attack) in the village info screen
-// @author FunnyPocketBook, Near edit
-// @version 0.4.3
-// @date 2019-07-02
-// @namespace FunnyPocketBook
+// @author      FunnyPocketBook, Near edit
+// @version     0.4.4
 // @include https://*/game.php?village=*&screen=info_village*
 // ==/UserScript==
 

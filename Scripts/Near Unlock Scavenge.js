@@ -1,13 +1,10 @@
 // ==UserScript==
-// @name Near Unlock Scavenge
-// @description Unlocks scavenge from village to village
-// @author Near edit
-// @include https://*&mode=scavenge*
-// @version 1.0.0
-// @namespace https://greasyfork.org/users/471382
+// @name         Near Unlock Scavenge
+// @description  Unlocks scavenge from village to village
+// @author       Near
+// @include      https://*&mode=scavenge*
+// @version      1.0.1
 // ==/UserScript==
-
-
 
 setInterval(function() {
 

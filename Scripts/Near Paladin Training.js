@@ -1,10 +1,9 @@
 // ==UserScript==
-// @name Near Paladin Training
+// @name        Near Paladin Training
 // @description Trains the paladin for 4h (changable) and changes village. (I recommend making a group with only paladins).
-// @author Near
-// @include https://*&screen=statue*
-// @version 1.1
-// @namespace https://greasyfork.org/users/471382
+// @author      Near
+// @include     https://*&screen=statue*
+// @version     1.1.1
 // ==/UserScript==
 
 setInterval(function() {
